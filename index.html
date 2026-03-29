@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Študenti API</title>
+  <style>
+    body { font-family: monospace; background: #1e1e1e; color: #d4d4d4; padding: 2rem; }
+    h1 { color: #569cd6; }
+    a { color: #ce9178; }
+    pre { background: #252526; padding: 1rem; border-radius: 8px; overflow: auto; }
+  </style>
+</head>
+<body>
+  <h1>🎓 Študenti API – GitHub Pages</h1>
+  <p>Toto je statická verzia API bežiaca na GitHub Pages.</p>
+  <ul>
+    <li><a href="students.json">students.json</a> – všetci študenti</li>
+    <li>Pre jedného študenta: <a href="student/1.json">student/1.json</a></li>
+  </ul>
+  <h2>Náhľad dát:</h2>
+  <pre id="output">Načítavam...</pre>
+  <script>
+    fetch("students.json")
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+      });
+  </script>
+</body>
+</html>

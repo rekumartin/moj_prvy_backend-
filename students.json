@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Adam Novák", "age": 20, "grade": "A", "image": "https://i.pravatar.cc/150?img=1"},
+  {"id": 2, "name": "Barbora Kováčová", "age": 21, "grade": "B", "image": "https://i.pravatar.cc/150?img=2"},
+  {"id": 3, "name": "Cyril Horváth", "age": 19, "grade": "A", "image": "https://i.pravatar.cc/150?img=3"},
+  {"id": 4, "name": "Dana Slobodová", "age": 22, "grade": "C", "image": "https://i.pravatar.cc/150?img=4"},
+  {"id": 5, "name": "Erik Blaho", "age": 20, "grade": "B", "image": "https://i.pravatar.cc/150?img=5"},
+  {"id": 6, "name": "Filip Mináč", "age": 21, "grade": "A", "image": "https://i.pravatar.cc/150?img=6"},
+  {"id": 7, "name": "Gabriela Lukáčová", "age": 19, "grade": "B", "image": "https://i.pravatar.cc/150?img=7"},
+  {"id": 8, "name": "Henrich Polák", "age": 23, "grade": "C", "image": "https://i.pravatar.cc/150?img=8"},
+  {"id": 9, "name": "Ivana Šimková", "age": 20, "grade": "A", "image": "https://i.pravatar.cc/150?img=9"},
+  {"id": 10, "name": "Jakub Varga", "age": 21, "grade": "B", "image": "https://i.pravatar.cc/150?img=10"}
+]
